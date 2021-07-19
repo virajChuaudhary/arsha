@@ -5,7 +5,7 @@ heading: ABOUT US
 list-heading: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
   tempor incididunt ut labore et dolore magna aliqua.
 about-list:
-- Ullamco laboris nisi ut aliquip ex ea commodo consequat
+- Ullamco laboris nisi ut aliquip ex ea commodo consequat testting
 - Duis aute irure dolor in reprehenderit in voluptate velit
 - Ullamco laboris nisi ut aliquip ex ea commodo consequat
 about-para: Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
@@ -30,6 +30,6 @@ about-second-section:
       lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor
       rhoncus dolor purus non.
   right-side-image: "/uploads/why-us.png"
-layout: page
+layout: about
 ---
 
