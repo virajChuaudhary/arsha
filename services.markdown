@@ -1,8 +1,8 @@
 ---
 title: services
 date: 2021-07-19 13:06:00 Z
-heading: Services
 permalink: "/services/"
+heading: Services
 layout: services
 ---
 
