@@ -8,6 +8,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  services:
+    title: services
+    output: true
 email: viraj.chaudharyAapexure.com
 description: website using html css bootstap jekyll git and siteleaf
 baseurl: "/arsha"
