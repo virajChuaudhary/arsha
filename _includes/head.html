@@ -1,8 +1,8 @@
  <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Inner Page - Arsha Bootstrap Template</title>
-  <meta content="" name="description">
+  <title>{% if page.title %}{{page.title}}{% else %}{{ site.title }}{% endif %}</title>
+  <meta content="{% if page.description %}{{page.description}}{% else %}{{ site.description }}{% endif %}" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->

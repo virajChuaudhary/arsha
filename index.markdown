@@ -1,5 +1,5 @@
 ---
-title: Arsha
+title: Home
 Banner-section:
   heading: Better Solutions For Your Business
   sub-heading: We are team of talented designers making websites with Bootstrap
