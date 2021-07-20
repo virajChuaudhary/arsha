@@ -26,3 +26,13 @@ github_username: jekyll
 theme: minima
 plugins:
 - jekyll-feed
+some-global-variables:
+  header-logo-image: 
+  footer-location: |-
+    A108 Adam Street
+    New York, NY 535022
+    United States
+  footer-phone: "+1 5589 55488 55"
+  footer-email: info@example.com
+  footer-our-social-networks: Cras fermentum odio eu feugiat lide par naso tierra
+    videa magna derita valies
