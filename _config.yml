@@ -11,6 +11,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  client-logo:
+    title: client-logo
+    output: true
   services:
     title: services
     output: true
