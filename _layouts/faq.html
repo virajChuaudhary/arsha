@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% include head.html %}
+ 
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  {% include header.html %}
+
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <ol>
+          <li><a href="index.html">Home</a></li>
+          <li>Inner Page</li>
+        </ol>
+        <h2>Inner Page</h2>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <section class="inner-page">
+        <section id="faq" class="faq section-bg">
+            <div class="container" data-aos="fade-up">
+      
+              <div class="section-title">
+                <h2>{{page.heading}}</h2>
+                <p>{{page.sub-heading}}</p>
+              </div>
+      
+              <div class="faq-list">
+                <ul>
+                  <li data-aos="fade-up" data-aos-delay="100">
+                    <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" class="collapse" href="#faq-list-1">{{page.question-answer.question1}}<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                    <div id="faq-list-1" class="collapse show" data-parent=".faq-list">
+                      <p>
+                        {{page.question-answer.answer1}}
+                      </p>
+                    </div>
+                  </li>
+      
+                  <li data-aos="fade-up" data-aos-delay="200">
+                    <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-2" class="collapsed">{{page.question-answer.question2}}<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                    <div id="faq-list-2" class="collapse" data-parent=".faq-list">
+                      <p>
+                        {{page.question-answer.answer2}}
+                      </p>
+                    </div>
+                  </li>
+      
+                  <li data-aos="fade-up" data-aos-delay="300">
+                    <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-3" class="collapsed">{{page.question-answer.question3}}<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                    <div id="faq-list-3" class="collapse" data-parent=".faq-list">
+                      <p>
+                        {{page.question-answer.answer3}}
+                      </p>
+                    </div>
+                  </li>
+      
+                  <li data-aos="fade-up" data-aos-delay="400">
+                    <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-4" class="collapsed">{{page.question-answer.question4}}<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                    <div id="faq-list-4" class="collapse" data-parent=".faq-list">
+                      <p>
+                        {{page.question-answer.answer4}}
+                      </p>
+                    </div>
+                  </li>
+      
+                  <li data-aos="fade-up" data-aos-delay="500">
+                    <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-5" class="collapsed">{{page.question-answer.question5}} <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                    <div id="faq-list-5" class="collapse" data-parent=".faq-list">
+                      <p>
+                        {{page.question-answer.answer5}}
+                      </p>
+                    </div>
+                  </li>
+      
+                </ul>
+              </div>
+      
+            </div>
+          </section>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  {% include footer.html %}
+
+{% include scripts.html %}
+
+</body>
+
+</html>
