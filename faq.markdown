@@ -1,6 +1,8 @@
 ---
 title: faq
 date: 2021-07-20 08:04:00 Z
+permalink: "/faq/"
+
 heading: FREQUENTLY ASKED QUESTIONS
 sub-heading: Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid
   fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate.
