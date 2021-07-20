@@ -26,6 +26,9 @@ github_username: jekyll
 theme: minima
 plugins:
 - jekyll-feed
+- jekyll-redirect-from
+- jekyll-sitemap
+
 some-global-variables:
   header-logo-image: 
   footer-location: |-

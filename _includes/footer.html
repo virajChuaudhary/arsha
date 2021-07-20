@@ -21,11 +21,9 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h3>Arsha</h3>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              {{site.some-global-variables.footer-location}}
+              <strong>Phone:</strong> {{site.some-global-variables.footer-phone}}<br>
+              <strong>Email:</strong> {{site.some-global-variables.footer-email}}<br>
             </p>
           </div>
 
@@ -40,9 +38,6 @@
           <li><i class="bx bx-chevron-right"></i> <a href="{{site.baseurl}}/contact">contact</a></li>
           <li><i class="bx bx-chevron-right"></i> <a href="{{site.baseurl}}/services">services</a></li>
           <li><i class="bx bx-chevron-right"></i> <a href="{{site.baseurl}}/faq">FAQ</a></li>
-        
-            
-             
             </ul>
           </div>
 
@@ -57,7 +52,7 @@
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Social Networks</h4>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+            <p>{{site.some-global-variables.footer-our-social-networks}}</p>
             <div class="social-links mt-3">
               <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
               <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
