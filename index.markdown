@@ -1,4 +1,5 @@
 ---
+title: Title
 Banner-section:
   heading: Better Solutions For Your Business
   sub-heading: We are team of talented designers making websites with Bootstrap
@@ -33,11 +34,12 @@ about-us-second-section:
       Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque
       eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris
       ultrices eros in cursus turpis massa tincidunt dui.
-    question3: " Dolor sit amet consectetur adipiscing elit?"
+    question3: " Dolor sit amet consectetur adipiscing elit??"
     answer3: Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci.
       Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl
       suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis
       convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+    question4: " Dolor sit amet consectetur adipiscing elit?"
   right-side-image: "/uploads/why-us.png"
 services-section:
   heading: SERVICES
