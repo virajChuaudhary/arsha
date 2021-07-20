@@ -28,7 +28,6 @@ plugins:
 - jekyll-feed
 - jekyll-redirect-from
 - jekyll-sitemap
-
 some-global-variables:
   header-logo-image: 
   footer-location: |-
