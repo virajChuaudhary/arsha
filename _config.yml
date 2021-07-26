@@ -17,6 +17,26 @@ collections:
   services:
     title: services
     output: true
+
+defaults:
+- scope:
+    path: ''         
+    type: team      
+  values:
+    title: 
+    date: 
+    name:  
+    designation:   
+    short-description:   
+    image: 
+- scope:
+    path: ''       
+    type: client-logo
+  values:
+    date: 
+    name:  
+    designation:  
+
 email: viraj.chaudharyAapexure.com
 description: website using html css bootstap jekyll git and siteleaf
 baseurl: "/arsha"
@@ -38,9 +58,3 @@ some-global-variables:
   footer-email: info@example.com
   footer-our-social-networks: "Cras fermentum odio eu feugiat lide par naso tierra
     videa magna derita valies "
- defaults:
- - scope:
-      path: ""
-      type: "services" # a collection in your site, in plural form
-    values:
-      testing: ""
