@@ -23,9 +23,9 @@ defaults:
     type: team
   values:
     name: 
-    designation:
+    designation: 
     short-description: 
-    image: ""
+    image: ''
     sitemap: false
 - scope:
     path: ''
@@ -36,13 +36,11 @@ defaults:
 - scope:
     path: ''
     type: client-logo
-    sitemap: false
   values:
     image: 
 - scope:
     path: ''
     type: services
-    sitemap: false
   values:
     heading: 
     sub-heading: 
