@@ -39,13 +39,12 @@ some-global-variables:
   footer-our-social-networks: "Cras fermentum odio eu feugiat lide par naso tierra
     videa magna derita valies "
  defaults:
-  -
-    scope:
+ - scope:
       path: ""
       type: "services" # a collection in your site, in plural form
     values:
       testing: ""
-    scope:
+ - scope:
       path: ""
       type: "team" # a collection in your site, in plural form
     values:
