@@ -18,6 +18,25 @@ collections:
     title: services
     output: true
 
+defaults:
+- scope:
+    path: ''         
+    type: "team"      
+  values:
+    title: 
+    date: 
+    name:  
+    designation:   
+    short-description:   
+    image: 
+
+
+
+
+
+
+
+
 
 
 email: viraj.chaudharyAapexure.com
