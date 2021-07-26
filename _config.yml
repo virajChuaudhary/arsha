@@ -18,24 +18,7 @@ collections:
     title: services
     output: true
 
-defaults:
-- scope:
-    path: ''         
-    type: team      
-  values:
-    title: 
-    date: 
-    name:  
-    designation:   
-    short-description:   
-    image: 
-- scope:
-    path: ''       
-    type: client-logo
-  values:
-    date: 
-    name:  
-    designation:  
+
 
 email: viraj.chaudharyAapexure.com
 description: website using html css bootstap jekyll git and siteleaf
