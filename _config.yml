@@ -17,19 +17,23 @@ collections:
   services:
     title: services
     output: true
-
-
-    
-
-
-
-
-
-
-
-
-
-
+defaults:
+- scope:
+    path: ''
+    type: team
+  values:
+    title: 
+    is-description-visible: 
+    description: 
+    image: 
+    is-linkedin-link-visible: 
+    is-email-link-visible: 
+    linkedin-url: 
+    linkedin-link: 
+    role: 
+    email-link: 
+    tags: 
+    sitemap: false
 email: viraj.chaudharyAapexure.com
 description: website using html css bootstap jekyll git and siteleaf
 baseurl: "/arsha"
