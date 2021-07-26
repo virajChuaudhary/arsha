@@ -39,8 +39,18 @@ defaults:
   values:
     description:
     meta-description: 
-
-
+- scope:
+    path: ''
+    type: client-logo
+  values:
+    image: 
+- scope:
+    path: ''
+    type: services
+  values:
+    heading: 
+    sub-heading: 
+    icon-class:      
 email: viraj.chaudharyAapexure.com
 description: website using html css bootstap jekyll git and siteleaf
 baseurl: "/arsha"
