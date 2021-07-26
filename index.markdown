@@ -25,12 +25,12 @@ about-us-second-section:
   sub-heading: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
   question-answer:
-    is-ques-ans-1-visible: 
+    is-ques-ans-1-visible: true
     question1: " Non consectetur a erat nam at lectus urna duis?"
     answer1: Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat
       lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor
       rhoncus dolor purus non.
-    is-ques-ans-2-visible: 
+    is-ques-ans-2-visible: true
     question2: " Feugiat scelerisque varius morbi enim nunc?"
     answer2: Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi.
       Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque
