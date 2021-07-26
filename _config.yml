@@ -22,16 +22,10 @@ defaults:
     path: ''
     type: team
   values:
-    is-description-visible: 
-    description: 
-    image: 
-    is-linkedin-link-visible: 
-    is-email-link-visible: 
-    linkedin-url: 
-    linkedin-link: 
-    role: 
-    email-link: 
-    tags: 
+    name: 
+    designation:
+    short-description: 
+    image: ""
     sitemap: false
 - scope:
     path: ''
@@ -42,11 +36,13 @@ defaults:
 - scope:
     path: ''
     type: client-logo
+    sitemap: false
   values:
     image: 
 - scope:
     path: ''
     type: services
+    sitemap: false
   values:
     heading: 
     sub-heading: 

@@ -106,35 +106,39 @@
             </div>
             <div class="accordion-list">
               <ul>
+                {% if page.about-us-second-section.question-answer.is-ques-ans-1-visible %}
                 <li>
-                  <a data-toggle="collapse" class="collapse" href="#accordion-list-1"><span>01</span>{% if page.about-us-second-section.question-answer.is-ques-ans-1-visible %}{{page.about-us-second-section.question-answer.question1}} {% endif %} <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <a data-toggle="collapse" class="collapse" href="#accordion-list-1"><span>01</span>{{page.about-us-second-section.question-answer.question1}}  <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                   <div id="accordion-list-1" class="collapse show" data-parent=".accordion-list">
                     <p>
-                      {% if page.about-us-second-section.question-answer.is-ques-ans-1-visible %}
-                      {{page.about-us-second-section.question-answer.answer1}}{% endif %}
+                     
+                      {{page.about-us-second-section.question-answer.answer1}}
                     </p>
                   </div>
                 </li>
-
+                {% endif %}
+                {% if page.about-us-second-section.question-answer.is-ques-ans-2-visible %} 
                 <li>
-                  <a data-toggle="collapse" href="#accordion-list-2" class="collapsed"><span>02</span>{% if page.about-us-second-section.question-answer.is-ques-ans-2-visible %} {{page.about-us-second-section.question-answer.question2}} {% endif %}<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <a data-toggle="collapse" href="#accordion-list-2" class="collapsed"><span>02</span>{{page.about-us-second-section.question-answer.question2}} <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                   <div id="accordion-list-2" class="collapse" data-parent=".accordion-list">
                     <p>
-                      {% if page.about-us-second-section.question-answer.is-ques-ans-2-visible %}
-                      {{page.about-us-second-section.question-answer.answer2}} {% endif %}
+                      
+                      {{page.about-us-second-section.question-answer.answer2}} 
                     </p>
                   </div>
                 </li>
-
+                {% endif %}
+                {% if page.about-us-second-section.question-answer.is-ques-ans-3-visible %}
                 <li>
-                  <a data-toggle="collapse" href="#accordion-list-3" class="collapsed"><span>03</span> {% if page.about-us-second-section.question-answer.is-ques-ans-3-visible %}{{page.about-us-second-section.question-answer.question3}} {% endif %} <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <a data-toggle="collapse" href="#accordion-list-3" class="collapsed"><span>03</span> {{page.about-us-second-section.question-answer.question3}}  <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                   <div id="accordion-list-3" class="collapse" data-parent=".accordion-list">
                     <p>
-                      {% if page.about-us-second-section.question-answer.is-ques-ans-3-visible %}
-                      {{page.about-us-second-section.question-answer.answer3}} {% endif %}
+                      
+                      {{page.about-us-second-section.question-answer.answer3}} 
                     </p>
                   </div>
                 </li>
+                {% endif %}
 
               </ul>
             </div>
