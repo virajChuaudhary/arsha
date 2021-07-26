@@ -22,7 +22,6 @@ defaults:
     path: ''
     type: team
   values:
-    title: 
     is-description-visible: 
     description: 
     image: 
@@ -34,6 +33,14 @@ defaults:
     email-link: 
     tags: 
     sitemap: false
+- scope:
+    path: ''
+    type: pages
+  values:
+    description:
+    meta-description: 
+
+
 email: viraj.chaudharyAapexure.com
 description: website using html css bootstap jekyll git and siteleaf
 baseurl: "/arsha"
