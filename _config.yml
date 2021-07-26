@@ -38,3 +38,19 @@ some-global-variables:
   footer-email: info@example.com
   footer-our-social-networks: Cras fermentum odio eu feugiat lide par naso tierra
     videa magna derita valies
+
+
+
+# default 
+ default
+ -
+  scope:
+    path: ""
+    type: "team"
+  values:
+    title: ""
+    date: ""
+    name: ""
+    designation: ""
+    short-description: ""
+    image: ""
