@@ -23,12 +23,7 @@ defaults:
     path: ''         
     type: "team"      
   values:
-    title: 
-    date: 
-    name:  
-    designation:   
-    short-description:   
-    image: 
+    
 
 
 
