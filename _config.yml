@@ -44,8 +44,3 @@ some-global-variables:
       type: "services" # a collection in your site, in plural form
     values:
       testing: ""
- - scope:
-      path: ""
-      type: "team" # a collection in your site, in plural form
-    values:
-      testing: ""
