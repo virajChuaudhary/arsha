@@ -36,21 +36,17 @@ some-global-variables:
     United States
   footer-phone: "+1 5589 55488 55"
   footer-email: info@example.com
-  footer-our-social-networks: Cras fermentum odio eu feugiat lide par naso tierra
-    videa magna derita valies
-
-
-
-# default 
+  footer-our-social-networks: "Cras fermentum odio eu feugiat lide par naso tierra
+    videa magna derita valies "
  defaults:
   -
     scope:
       path: ""
       type: "team" # a collection in your site, in plural form
     values:
-      title: ""
-      date: ""
-      name: ""
-      designation: ""
-      short-description: ""
-      image: ""
+      title: " "
+      date: " "
+      name: " "
+      designation: " "
+      short-description: " "
+      image: " "
