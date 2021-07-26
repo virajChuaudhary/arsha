@@ -42,7 +42,7 @@ some-global-variables:
 
 
 # default 
- default
+ defaults
  -
   scope:
     path: ""
