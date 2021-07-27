@@ -862,6 +862,12 @@ section {
   font-size: 36px;
   transition: 0.3s;
 }
+.services .icon-box .icon img {
+  font-size: 36px;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
 
 .services .icon-box h4 {
   font-weight: 500;
