@@ -5,5 +5,6 @@ heading: Magni Dolores
 sub-heading: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
 icon-class: bx bx-tachometer
 image: "/uploads/hand.png"
+is-image-visible: true
 ---
 
