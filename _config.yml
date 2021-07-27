@@ -46,6 +46,8 @@ defaults:
     heading: 
     sub-heading: 
     icon-class: 
+    image: 
+    is-image-visible:
 email: viraj.chaudharyAapexure.com
 description: website using html css bootstap jekyll git and siteleaf
 baseurl: "/arsha"
@@ -59,11 +61,11 @@ plugins:
 - jekyll-sitemap
 some-global-variables:
   header-logo-image: 
-  footer-location: |-
+  footer-location: 
     A108 Adam Street
     New York, NY 535022
     United States
   footer-phone: "+1 5589 55488 55"
   footer-email: info@example.com
   footer-our-social-networks: 'Cras fermentum odio eu feugiat lide par naso tierra
-    videa magna derita valies '
+    videa magna derita valies'
