@@ -38,6 +38,7 @@ defaults:
     type: client-logo
   values:
     image: 
+    sitemap: false
 - scope:
     path: ''
     type: services
