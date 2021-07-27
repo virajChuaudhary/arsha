@@ -242,10 +242,19 @@
         </div>
 
         <div class="row">
-          {% for service in site.services%}
+          {% for service in site.services limit:4%}
             <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
               <div class="icon-box">
+                
+                <!-- image: 
+    is-image-visible:  -->
+                {% if service.is-image-visible %}
+                <div class="icon"><img src="{{site.baseurl}}/service.image" alt=""></div>
+                {% elsif service.is-icon-class-visible %}
                 <div class="icon"><i class="{{service.icon-class}}"></i></div>
+                {% else %}
+                <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                {% endif%}
                 <h4><a href="">{{service.heading}}</a></h4>
                 <p>{{service.sub-heading}}</p>
               </div>

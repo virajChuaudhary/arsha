@@ -46,6 +46,7 @@ defaults:
     heading: 
     sub-heading: 
     icon-class: 
+    is-icon-class-visible:
     image: 
     is-image-visible: 
 email: viraj.chaudharyAapexure.com
