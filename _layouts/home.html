@@ -249,9 +249,9 @@
                 <!-- image: 
     is-image-visible:  -->
                 {% if service.is-image-visible %}
-                <div class="icon"><img src="{{site.baseurl}}/service.image" alt=""></div>
-                {% elsif service.is-icon-class-visible  %}
                 <div class="icon"><img src="{{site.baseurl}}/{{service.image}}" alt=""></div>
+                {% elsif service.is-icon-class-visible  %}
+                <div class="icon"><i class="{{service.icon-class}}"></i></div>
                 {% else %}
                 <div class="icon"><i class="bx bxl-dribbble"></i></div>
                 {% endif%}
