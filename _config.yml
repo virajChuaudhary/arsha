@@ -1,0 +1,67 @@
+---
+title: Arsha
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  team:
+    title: Team
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+  client-logo:
+    title: client-logo
+    output: true
+  services:
+    title: services
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: team
+  values:
+    name: 
+    designation: 
+    short-description: 
+    image: ''
+    sitemap: false
+- scope:
+    path: ''
+    type: pages
+  values:
+    description: 
+    meta-description: 
+- scope:
+    path: ''
+    type: client-logo
+  values:
+    image: 
+    sitemap: false
+- scope:
+    path: ''
+    type: services
+  values:
+    heading: 
+    sub-heading: 
+    icon-class: 
+    is-icon-class-visible: 
+    image: 
+    is-image-visible: 
+email: viraj.chaudharyAapexure.com
+description: website using html css bootstap jekyll git and siteleaf
+baseurl: "/arsha"
+url: http://arsha-1.siteleaf.net/
+theme: minima
+plugins:
+- jekyll-feed
+- jekyll-redirect-from
+- jekyll-sitemap
+some-global-variables:
+  header-logo-image: 
+  footer-location: A108 Adam Street New York, NY 535022 United States
+  footer-phone: "+1 5589 55488 55"
+  footer-email: info@example.com
+  footer-our-social-networks: Cras fermentum odio eu feugiat lide par naso tierra
+    videa magna derita valies
