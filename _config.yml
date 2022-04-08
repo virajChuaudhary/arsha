@@ -51,7 +51,7 @@ defaults:
     is-image-visible: 
 email: viraj.chaudharyAapexure.com
 description: website using html css bootstap jekyll git and siteleaf
-baseurl: "/arsha"
+baseurl: "/"
 url: http://arsha-1.siteleaf.net/
 theme: minima
 plugins:
